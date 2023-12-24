@@ -1,0 +1,45 @@
+== Neo4j Movies Application: Quick Start
+Simple app to diplay NEO4J graph database, based on projects from NEO4J docs.
+=== The Stack
+
+These are the components of our Web Application:
+
+* Application Type:         Python-Web Application
+* Neo4j Database Connector: https://github.com/neo4j/neo4j-python-driver[Neo4j Python Driver] for Cypher https://neo4j.com/developer/python[Docs]
+* Database:                 Neo4j-Server (5.0or newer) with multi-database
+* Frontend:                 jquery, bootstrap, https://d3js.org/[d3.js]
+=== Setup
+Install Python 3.7-3.11.
+----
+virtualenv superheroes
+source superheroes/bin/activate
+----
+
+The next step is to install the dependencies for the app with pip (or pip3 for python3):
+
+[source]
+----
+pip install -r requirements.txt
+----
+
+=== Run locally
+python superheroes.py
+
+Navigate to http://localhost:8080.
+
+Environment Variables needed to set up
+|PORT
+|8080
+
+|NEO4J_URI
+|neo4j+s://url
+
+|NEO4J_USER
+|neo4j
+
+|NEO4J_PASSWORD
+|{PASSWORD}
+
+|NEO4J_DATABASE
+|neo4j
+|===
