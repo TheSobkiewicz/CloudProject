@@ -41,9 +41,9 @@ Environment Variables needed to set up
 |NEO4J_PASSWORD
 |{PASSWORD}
 
-=== Live Demo
-https://superheroes-cloud-project.azurewebsites.net/
-
 |NEO4J_DATABASE
 |neo4j
 |===
+
+=== Live Demo
+https://superheroes-cloud-project.azurewebsites.net/
