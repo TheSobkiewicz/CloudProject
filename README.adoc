@@ -1,5 +1,6 @@
 == Neo4j Movies Application: Quick Start
 Simple app to diplay NEO4J graph database, based on projects from NEO4J docs.
+
 === The Stack
 
 These are the components of our Web Application:
